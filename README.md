@@ -3,7 +3,7 @@
 A small JSON API for keeping a personal list of expenses. Each person has an account and sees
 only their own rows. Creating an expense is safe to retry.
 
-- **Live:** `https://YOUR-APP-URL` &nbsp;·&nbsp; **Repo:** `https://github.com/YOUR-USERNAME/expense-api`
+- **Live:** `https://https://hibaimran107.pythonanywhere.com` &nbsp;·&nbsp; **Repo:** `https://github.com/hibaimran107/services`
 - Stack: Python 3.12, Flask, SQLite (WAL), gunicorn. No secrets are needed to run it (see below).
 
 ## Try it
@@ -122,6 +122,8 @@ fly deploy
 ```
 **Render:** New → Web Service → connect the repo → Docker. Add a Disk mounted at `/data` (paid plans only;
 on the free plan the data is wiped on restart, fine for a demo, not for real use).
+
+Deployed on PythonAnywhere (free plan), with SQLite on its persistent disk.
 
 ## Secrets
 
